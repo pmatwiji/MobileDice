@@ -1,0 +1,81 @@
+@font-face {
+    font-family: main;
+    src: url(../fonts/Augusta.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    background:black url(../img/backMain.jpg) center no-repeat;
+    text-align: center;
+}
+
+h1{
+    font-family: 'main';
+    color: #fff;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    font-size: 4em;
+    margin: auto;
+    padding-top: 25%;
+}
+
+#start{
+    width: 65%;
+    margin: 55% auto;
+    padding: 1%;
+    border: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.containerMain{
+    height: 100vh;
+    background:black url(../img/backDice.jpg) center no-repeat;
+    text-align: center;
+}
+
+.containerbtn{
+    height: 20%;
+}
+
+.containerbtn img{
+    width: 35%;
+    margin: 0 5%;
+}
+
+.rollbtn {
+    padding-top: 23%;
+}
+
+.containerDice{
+    height: 70%;
+    /*background: #fff;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#add {
+    display: none;
+}
+
+#dieOne{
+    height: 100px;
+    width: 98px;
+    background: url(../img/faceOne.png) center;
+}
+
+#back{
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    width: 9%;
+    height: 5%;
+}
